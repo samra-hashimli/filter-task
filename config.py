@@ -1,0 +1,2 @@
+MAX_PRICE = 10
+MIN_PRICE = 2
