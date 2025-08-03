@@ -37,7 +37,7 @@ class Tomato:
     
     def start():
         Tomato(0, "").generate_fake_tomatoes()
-        filtered_tomatoes = Tomato.filter_by(price__gt=5)
+        filtered_tomatoes = Tomato.filter_by(price__gt=6)
         
         for tomato in filtered_tomatoes:
             print(f"Price: {tomato.price}, Tag: {tomato.tag}")
