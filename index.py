@@ -12,7 +12,7 @@ class Tomato:
 
     def generate_tag(self, length=6):
         symbols = string.ascii_uppercase + string.digits
-        tag = " "
+        tag = ""
 
         for _ in range(length):
             tag += choice(symbols)
